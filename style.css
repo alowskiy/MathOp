@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+font-family: 'Lilita One', cursive;
+}
+.terrain {
+    background-color: aquamarine;
+  width: 700px;
+    height: 200px;
+  
+    margin-left: auto;
+    margin-right: auto;
+}
+.obj {
+    width: 30px;
+    height: 30px;
+    background: #000;
+    margin-top: auto;
+    position: relative;
+
+}
+.env{
+    max-width:700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left {
+    width: 60px;
+    height: 60px;
+    background-color: blueviolet;
+    margin-top: 45px;
+
+}
+
+.right {
+    width: 60px;
+    height: 60px;
+    background-color: blueviolet;
+    margin-top: 45px;
+
+}
+.buttons {
+    display: flex;
+        justify-content: space-between;
+    }
+.tittle {
+display: flex;
+justify-content: center;
+}
+h1 {
+
+  background: linear-gradient(90deg, rgba(140,255,4,1) 0%, rgba(255,0,104,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
